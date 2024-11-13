@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerente</title>
+    <link rel="stylesheet" href="stylesgerente.css">
+    <!-- Font Awesome Cdn link -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li class="active">
+                <a href="#">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span>Clientes</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Operações</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Pedidos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-car"></i>
+                    <span>Veículos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-star"></i>
+                    <span>Montadoras</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-users"></i>
+                    <span>Vendedores</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>Painel do</span>
+                <h2>Gerente</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Pesquisa">
+            </div>
+            </div>
+            <img src="./img/rectangular_logo.png" alt="">
+        </div>
+    <div class="card--container">
+        <h3 class="main--title">Data de hoje</h3>
+        <div class="card--wrapper">
+            <div class="payment--card light-red">
+                <div class="card--header">
+                    <div class="ammount">
+                        <span class="title">
+                            Valor do pagamento</span>
+                        <span class="ammount--value">R$200.500</span>
+                    </div>
+                <i class="fas fa-dollar-sign icon"></i>
+                </div>
+                <span class="card--detail">
+                    **** **** **** 4002
+                </span>
+            </div>
+            
+            <div class="payment--card light-purple">
+                <div class="card--header">
+                    <div class="ammount">
+                        <span class="title">
+                            Pedido do pagamento
+                        </span>
+                        <span class="ammount--value">R$398.500</span>
+                    </div>
+                <i class="fas fa-list icon dark-purple"></i>
+                </div>
+                <span class="card--detail">
+                    **** **** **** 8922
+                </span>
+            </div>
+
+            <div class="payment--card light-green">
+                <div class="card--header">
+                    <div class="ammount">
+                        <span class="title">
+                            Pagamento do cliente
+                        </span>
+                        <span class="ammount--value">R$239.950</span>
+                    </div>
+                <i class="fas fa-users icon dark-green"></i>
+                </div>
+                <span class="card--detail">
+                    **** **** **** 4985
+                </span>
+            </div>
+
+            <div class="payment--card light-blue">
+                <div class="card--header">
+                    <div class="ammount">
+                        <span class="title">
+                            Proceder pagamento
+                        </span>
+                        <span class="ammount--value">R$589.000</span>
+                    </div>
+                <i class="fas fa-solid fa-check icon dark-blue"></i>
+                </div>
+                <span class="card--detail">
+                    **** **** **** 6954
+                </span>
+            </div>
+        </div>  
+    </div>
+        
+        <div class="tabular--wrapper">
+            <h3 class="main--title"> Dados das Finanças</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Tipo de Transação</th>
+                            <th>Descrição</th>
+                            <th>Valor</th>
+                            <th>Categoria</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    10-12-2024
+                                </td>
+                                <td>A vista</td>
+                                <td>Ferrari F80</td>
+                                <td>R$22.990.000,00</td>
+                                <td>Interesse e Contato</td>
+                                <td>Pendente</td>
+                                <td><button>Editar</button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    11-12-2024
+                                </td>
+                                <td>a Crédito</td>
+                                <td>Mustang March-E</td>
+                                <td>R$486.000,00</td>
+                                <td>Vendas e Negociações</td>
+                                <td>Completado</td>
+                                <td><button>Editar</button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    12-12-2024
+                                </td>
+                                <td>Financiado</td>
+                                <td>Ranger XL 2.0 DIESEK 4x4 NT 2025</td>
+                                <td>R$244.990,00</td>
+                                <td>Financeiro e Administrativo</td>
+                                <td>Pendente</td>
+                                <td><button>Editar</button></td>
+                            </tr>
+                        </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7">Total: R$50.440.000,00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="java.js"></script>
+</body>
+</html>
